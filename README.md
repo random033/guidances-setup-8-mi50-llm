@@ -1,9 +1,9 @@
 
-# Guidances for Test setup of 8 AMD MI50 32GB
+# Guidances for Test setup of 8 AMD MI50 32GB (LLM)
 
 ![illustration](illustration.png)
 
-**Goal: reach production re-ady system for autonomous software development at minimal cost & maximal throughput+accuracy**
+**Goal: reach production ready system for autonomous software development at minimal cost & maximal throughput+accuracy**
 
 ## Hardware details
 
