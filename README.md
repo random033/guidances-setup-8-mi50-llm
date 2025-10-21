@@ -113,7 +113,7 @@ NCCL_P2P_DISABLE=1 VLLM_LOGGING_LEVEL=DEBUG VLLM_USE_TRITON_FLASH_ATTN=1 NCCL_DE
 # NB2: running with --tensor-parallel-size 8 can be faster here but not working with this quant model due to quantization group size & block_size_k = 128 raising issue: size_k (= moe_intermediate_size / tp_size = 1536 / 8 = 192) not divisible by block_size_k
 ```
 
-** Enjoy your most cost effective solution of the world for one of the best fast intelligent local inference setup (at the moment).**
+**Enjoy your most cost effective solution of the world for one of the best fast intelligent local inference setup (at the moment).**
 
 ## TODO LIST
 
