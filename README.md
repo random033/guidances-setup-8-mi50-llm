@@ -6,6 +6,7 @@
 **Goal: reach production ready system for autonomous software development at minimal cost & maximal throughput+accuracy**
 
 **GPUs cost**: 880$ for 256GB VRAM
+
 **Power draw**: 280W (idle) / 1200W (inference)
 
 **Feel free to ask any questions and/or share any comments in the issues section here or in the medium article:** 
