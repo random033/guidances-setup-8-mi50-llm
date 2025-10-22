@@ -5,6 +5,14 @@
 
 **Goal: reach production ready system for autonomous software development at minimal cost & maximal throughput+accuracy**
 
+**GPUs cost**: 880$ for 256GB VRAM
+**Power draw**: 280W (idle) / 1200W (inference)
+
+**Feel free to ask any questions and/or share any comments in the issues section here or in the medium article:** 
+https://medium.com/@ai-infos/8x-amd-mi50-32gb-at-12-t-s-tg-10k-t-s-pp-with-glm-4-6-roo-code-vllm-gfx906-ed2da2f237db
+
+
+
 ## Hardware details
 
 - 8x AMD MI50 32GB
@@ -120,5 +128,6 @@ NCCL_P2P_DISABLE=1 VLLM_LOGGING_LEVEL=DEBUG VLLM_USE_TRITON_FLASH_ATTN=1 NCCL_DE
 - improve this guidance draft (content/form)
 - add upp overclocking details (with big disclaimer: only for users knowing what they do due to card damage risks)
 - add docker files for easy setup
+- open source the test setup of 16 AMD MI50 32GB for Deepseek 671B powered by solar panels system
 
 **Credits: Global Open source Community**
