@@ -36,7 +36,7 @@ https://medium.com/@ai-infos/8x-amd-mi50-32gb-at-12-t-s-tg-10k-t-s-pp-with-glm-4
 - vllm-gfx906 v0.11.0
 - MI50 bios: 32G_UEFI.rom  
 - upp for overclocking with relevant tables of V420.rom (1800/1100 SCLK/MCLK @300W) (https://gist.github.com/evilJazz/14a4c82a67f2c52a6bb5f9cea02f5e13) [+8% token generation boost]
-- Fused moe config: E=20,N=1536,device_name=AMD_Instinct_MI50_MI60,dtype=int4_w4a16.json added in {your_python_env}/vllm/model_executor/layers/fused_moe/configs (source: https://github.com/nlzy/vllm-gfx906/pull/39/files) [+18% token generation boost]
+- Fused moe config: copy E=20,N=1536,device_name=AMD_Instinct_MI50_MI60,dtype=int4_w4a16.json from this repo in {your_python_env}/vllm/model_executor/layers/fused_moe/configs (credits: https://github.com/nlzy/vllm-gfx906/pull/39/files ; BLOCK_SIZE_K set at 128 due to GLM 4.6 quant with group size of 128) [+18% token generation boost]
 - Visual Studio code with relevant extensions:
 -- CodeRabbit (for code review)
 -- Roo Code with relevant MCP servers (Context7, sequentialthinking, tavily for websearch)
